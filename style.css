@@ -1,0 +1,361 @@
+body {
+    background-color: white;
+    margin          : 0px;
+    padding         : 0px;
+}
+
+/* First Belt */
+
+header {
+    text-align      : center;
+    width           : 100%;
+    display         : inline-block;
+    background-color: #2f55a4;
+    margin          : 0px;
+    padding         : 0px 0px 0px 0px;
+    border          : 0px;
+}
+
+.icon li {
+    color              : white;
+    /* background-color: lightgreen; */
+    list-style         : none;
+    padding            : 2px 10px;
+    margin-left        : 5px;
+    float              : left;
+
+}
+
+.icon li:hover {
+    background-color: blue;
+    cursor          : pointer;
+}
+
+header p {
+    font-family        : sans-serif;
+    color              : white;
+    /* background-color: lightskyblue; */
+    display            : inline-block;
+    margin             : 0px 25px 10px -10px;
+    padding-left       : 3em;
+
+}
+
+header button {
+    color        : green;
+    padding      : 7px 8px;
+    border       : 1px solid green;
+    margin-bottom: 5px;
+}
+
+
+/* Socond Belt */
+
+.nav {
+    display         : inline-block;
+    background-color: aliceblue;
+    width           : 100%;
+    margin          : 0px 0px;
+    padding         : 0px;
+
+}
+
+
+.nav img {
+
+    margin-left : 4em;
+    margin-right: 20em;
+    float       : left;
+}
+
+.nav li {
+    font-family  : sans-serif;
+    font-weight  : 500;
+    color        : black;
+    display      : inline-block;
+    padding      : 8px 12px;
+    border-radius: 15px;
+}
+
+.nav li:hover {
+    background-color: #2f55a4;
+    color           : white;
+    cursor          : pointer;
+}
+
+/* Third Belt */
+
+.image {
+    /* background-color: yellow; */
+    margin          : 0px;
+    padding         : 0px;
+    border          : 0px;
+    background-image: none;
+
+}
+
+
+/* Fourth Belt */
+
+.news {
+    background-color: white;
+    border          : 0;
+    margin          : 0px;
+    padding         : 0px;
+    min-width       : 70%;
+    max-height      : 30%;
+}
+
+
+.news p {
+    background-color: #2f55a4;
+    text-align      : center;
+    margin          : 15px 55px;
+    color           : white;
+    padding         : 2px 15px;
+
+}
+
+/* Fifth Belt */
+
+.text {
+    background-color: whitesmoke;
+    border          : 0px;
+    margin          : 0px 0px;
+    padding         : 0;
+    max-width       : 100%;
+    text-align      : center;
+    display         : inline-block;
+}
+
+.text h1 {
+    font-size     : 40px;
+    font-family   : serif;
+    letter-spacing: 0em;
+    padding-top   : 10px;
+}
+
+.text p {
+    padding   : 15px 35px;
+    float     : left;
+    text-align: justify;
+}
+
+/* Sixth Belt */
+
+.food {
+    width           : 100%;
+    background-color: blue;
+    color           : white;
+    display         : inline-block;
+    margin          : 0px;
+    padding         : 25px 0;
+}
+
+.food div {
+    margin          : 0px;
+    float           : left;
+    background-color: blue;
+    /* border       : 1px solid red; */
+    text-align      : center;
+    padding         : 25px 50px;
+}
+
+.food h3 {
+    font-size: 300%;
+    padding  : 0px;
+    margin   : 0px;
+}
+
+/* Seventh Belt */
+
+.box {
+    width           : 100%;
+    background-color: whitesmoke;
+    margin          : 0px;
+    padding         : 0px;
+    text-align      : center;
+    display         : inline-block;
+}
+
+.box-1 {
+    display         : inline-block;
+    background-color: white;
+    border          : 2px solid white;
+    margin          : 15px 15px;
+    width           : 300px;
+    height          : 150px;
+    box-shadow      : 5px 5px 8px lightgray;
+    padding         : 5px 2px 0px 2px;
+    color           : blue;
+    font-weight     : bold;
+    font-family     : Arial, Helvetica, sans-serif;
+}
+
+
+/* Eight Belt */
+
+.mission {
+    display         : inline-block;
+    background-color: white;
+    margin          : 0px;
+    text-align      : left;
+    padding         : 0px;
+    width           : 100%;
+
+}
+
+.mission h1 {
+    background-color: white;
+    display         : inline-block;
+    color           : blue;
+    font-family     : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight     : 700;
+    font-size       : 25px;
+}
+
+.left {
+    background-color: white;
+    float           : left;
+    padding         : 10px 20px 10px 35px;
+    margin          : 10px 10px;
+}
+
+.hepatitis {
+    display         : inline-block;
+    background-color: whitesmoke;
+    color           : darkblue;
+    font-weight     : 600;
+    width           : 40%;
+    text-align      : left;
+    padding         : 10px 10px 15px 15px;
+    margin          : 5px 15px 5px 0px;
+    border          : .5px solid skyblue;
+
+}
+
+.hepatitis img {
+    padding-right: 20px;
+}
+
+.right {
+    background-color: white;
+    width           : 270px;
+    float           : left;
+    margin          : 20px 10px;
+}
+
+/* Ninth Belt */
+
+.gallery {
+    display         : inline-block;
+    background-color: white;
+    margin          : 0px;
+    padding         : 0px;
+    text-align      : center;
+    width           : 100%;
+    /* float        : left; */
+}
+
+.image-gallery {
+    margin : 0px;
+    padding: 15px 15px;
+
+}
+
+
+.img div {
+    display: inline-block;
+    padding: 15px 0px;
+}
+
+.img img {
+    display: inline-block;
+    width  : 200px;
+    margin : 20px 3px;
+}
+
+/* Tenth Belt */
+
+.address {
+    display         : inline-block;
+    background-color: #333333;
+    width           : 100%;
+    margin          : 0em;
+    padding         : 0;
+    color           : white;
+}
+
+.add {
+    /* background-color: indigo; */
+    margin : 20px;
+    padding: 20px;
+    float  : left;
+    color  : gray;
+}
+
+.add li {
+    list-style: none;
+}
+
+.add i {
+    color        : green;
+    padding-right: 5px;
+}
+
+.links {
+    /* background-color: lawngreen; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin     : 20px;
+    padding    : 20px;
+    width      : 200px;
+    display    : inline-block;
+}
+
+.links hr {
+    color                : gray;
+    text-decoration-style: dashed;
+}
+
+.social {
+    /* background-color: lightcoral; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin     : 20px;
+    padding    : 20px;
+    width      : 200px;
+    display    : inline-block;
+}
+
+.social i {
+    background-color: blue;
+    padding         : 10px;
+    border-radius   : 25px;
+    color           : white;
+}
+
+.social i:hover {
+    cursor: pointer;
+}
+
+
+/* Eleventh Belt */
+
+.mainfooter {
+    background-color: blue;
+    margin          : 0em;
+    padding         : 5px;
+    text-align      : center;
+    color           : whitesmoke;
+
+}
+
+/* Extra belt */
+
+.arrow{
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    opacity: 0.5;
+    /* background-color: grey; */
+}
+
